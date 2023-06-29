@@ -27,12 +27,14 @@ public class Facebook extends BaseClass {
 		String accessibleName = email.getAttribute("value");
 		System.out.println(accessibleName);
 		driver.close();
+
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Facebook f = new Facebook();
 		f.fbook();
+
 	}
 
 }

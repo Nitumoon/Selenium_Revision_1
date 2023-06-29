@@ -21,7 +21,7 @@ public class DropDownList extends BaseClass {
 		a.click();
 
 		List<WebElement> ele = driver.findElements(By.xpath("//a[@class=\"ui-corner-all\"]"));
-		System.out.println(ele.size());
+		System.out.println("Total Language available :" + ele.size());
 		Thread.sleep(1000);
 		for (WebElement w : ele) {
 
